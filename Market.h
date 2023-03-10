@@ -7,21 +7,20 @@ using namespace std;
 class Market {
     private:
         StockList *head = new StockList();
-        string name = "Default";
+        string name;
         int market_num;
 
     public:
-        Market(){};
-        Market(string name){name = name;};
+        Market(){name="Default";};
+        Market(string name){this->name = name;};
         Market(string name, int market_num) {name=name; market_num = market_num;};
         void readStockFile() {
             //create an input file stream
-            cout << "Stocks for Market: Default" << endl;
-            ifstream infile("Default.0.txt", ios::in);
+            ifstream infile(name + ".0.txt", ios::in);
 
             //check that we're able to open
             if (!infile){
-                cerr << "Could not open file day0.txt" << endl;
+                cerr << "Could not open file " + name << endl;
                 exit(EXIT_FAILURE);
             }
 
