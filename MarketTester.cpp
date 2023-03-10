@@ -17,7 +17,6 @@ int main(){
 	m1.showStocks();
 	cout << "----------------------" << endl;
 
-	/*
 	//read in and display a stockfile
 	//using a specified day number
 	cout << "reading in EKSE.0.txt & displaying m2: " << endl << endl;
