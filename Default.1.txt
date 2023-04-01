@@ -1,57 +1,57 @@
-A,Agilent Technologies,152.987,1000
-AAL,American Airlines Group,21.5212,200
-AAPL,Apple,148.099,1000
-ABB,Abbott Laboratories,35.9968,200
-ABBV,AbbVie,126.449,1000
-ABC,AmerisourceBergen,122.238,1000
-ABMD,Abiomed,350.195,500
-ACN,Accenture,329.089,1000
-ADBE,Adobe,644.967,500
-ADI,Analog Devices,167.039,200
-ADM,ADM,61.3352,500
-ADP,Automatic Data Processing,216.824,500
-ADSK,Autodesk,315.181,1000
-AEE,Ameren Corp,81.0241,1000
-AEP,American Electric Power,85.0518,1000
-AES,AES Corp,26.1547,1000
-AFL,Aflac,55.6022,500
-AIG,American International Group,49.0574,1000
-AIZ,Assurant,158.973,1000
-AJG,Arthur J. Gallagher & Co.,149.437,1000
-AKAM,Akamai Technologies,121.822,500
-ALB,Albemarle Corporation,183.709,200
-ALGN,Align Technology,654.64,1000
-ALK,Alaska Air Group,62.1844,1000
-ALL,Allstate Corp,132.721,1000
-ALLE,Allegion,139.684,500
-ALXN,Alexion Pharmaceuticals,194.599,1000
-AMAT,Applied Materials,142.757,1000
-AMCR,Amcor,11.6203,500
-AMD,Advanced MicroA Devices,90.3369,200
-AME,Ametek,136.644,1000
-AMGN,Amgen,255.816,1000
-AMP,Ameriprise Financial,263.236,1000
-AMT,American Tower,302.326,1000
-AMZN,Amazon,3961.27,1000
-ANET,Arista Networks,405.445,1000
-ANSS,Ansys,381.572,500
-ANTM,Anthem,384.028,1000
-AOS,A. O. Smith,243.422,1000
-APA,APA Corporation,20.3229,1000
-APD,Air Products & Chemicals,309.74,200
-APH,Amphenol Corp,70.7892,1000
-APTV,Aptiv,160.842,1000
-ARE,Alexandria Real Estate Equities,202.939,500
-ATO,Atmos Energy,100.15,1000
-ATVI,Activision Blizzard,95.977,1000
-AVB,AvalonBay Communities,232.102,1000
-AVY,Avery Dennison,218.968,200
-AWK,American Water Works,175.378,500
-AXP,American Express,186.09,1000
-AZO,Autozone,1685.86,1000
-GOOG,Alphabet(Class C),2787.63,1000
-GOOGL,Alphabet(Class A),2607.39,200
-LNT,Alliant Energy,58.9715,1000
-MMM,3M,211.86,1000
-MO,Altria Group,50.2242,1000
-T,AT&T,30.6141,200
+A    : 1000 @ $ 160.021 (Agilent Technologies)
+AAL  :  200 @ $ 22.7138 (American Airlines Group)
+AAPL : 1000 @ $ 148.763 (Apple)
+ABB  :  200 @ $ 37.8763 (Abbott Laboratories)
+ABBV : 1000 @ $ 115.665 (AbbVie)
+ABC  : 1000 @ $ 116.836 (AmerisourceBergen)
+ABMD :  500 @ $ 336.588 (Abiomed)
+ACN  : 1000 @ $ 332.939 (Accenture)
+ADBE :  500 @ $ 619.717 (Adobe)
+ADI  :  200 @ $ 180.787 (Analog Devices)
+ADM  :  500 @ $ 59.9646 (ADM)
+ADP  :  500 @ $ 213.069 (Automatic Data Processing)
+ADSK : 1000 @ $ 299.758 (Autodesk)
+AEE  : 1000 @ $ 83.1339 (Ameren Corp)
+AEP  : 1000 @ $ 91.0765 (American Electric Power)
+AES  : 1000 @ $ 26.3777 (AES Corp)
+AFL  :  500 @ $ 56.9029 (Aflac)
+AIG  : 1000 @ $ 50.9621 (American International Group)
+AIZ  : 1000 @ $ 156.066 (Assurant)
+AJG  : 1000 @ $ 142.582 (Arthur J. Gallagher & Co.)
+AKAM :  500 @ $ 120.865 (Akamai Technologies)
+ALB  :  200 @ $ 190.833 (Albemarle Corporation)
+ALGN : 1000 @ $ 681.947 (Align Technology)
+ALK  : 1000 @ $ 63.3345 (Alaska Air Group)
+ALL  : 1000 @ $ 132.684 (Allstate Corp)
+ALLE :  500 @ $  141.75 (Allegion)
+ALXN : 1000 @ $ 200.282 (Alexion Pharmaceuticals)
+AMAT : 1000 @ $ 145.282 (Applied Materials)
+AMCR :  500 @ $ 12.1572 (Amcor)
+AMD  :  200 @ $ 95.0711 (Advanced MicroA Devices)
+AME  : 1000 @ $ 144.491 (Ametek)
+AMGN : 1000 @ $ 258.989 (Amgen)
+AMP  : 1000 @ $  252.64 (Ameriprise Financial)
+AMT  : 1000 @ $ 296.992 (American Tower)
+AMZN : 1000 @ $ 3697.43 (Amazon)
+ANET : 1000 @ $ 387.547 (Arista Networks)
+ANSS :  500 @ $ 384.645 (Ansys)
+ANTM : 1000 @ $ 422.538 (Anthem)
+AOS  : 1000 @ $ 256.939 (A. O. Smith)
+APA  : 1000 @ $ 20.6618 (APA Corporation)
+APD  :  200 @ $ 311.094 (Air Products & Chemicals)
+APH  : 1000 @ $ 71.3517 (Amphenol Corp)
+APTV : 1000 @ $ 159.529 (Aptiv)
+ARE  :  500 @ $ 201.267 (Alexandria Real Estate Equities)
+ATO  : 1000 @ $ 103.051 (Atmos Energy)
+ATVI : 1000 @ $ 96.6188 (Activision Blizzard)
+AVB  : 1000 @ $ 237.823 (AvalonBay Communities)
+AVY  :  200 @ $ 211.289 (Avery Dennison)
+AWK  :  500 @ $ 168.046 (American Water Works)
+AXP  : 1000 @ $  183.39 (American Express)
+AZO  : 1000 @ $ 1571.51 (Autozone)
+GOOG : 1000 @ $ 2656.72 (Alphabet(Class C))
+GOOGL:  200 @ $ 2703.53 (Alphabet(Class A))
+LNT  : 1000 @ $ 58.7766 (Alliant Energy)
+MMM  : 1000 @ $ 213.524 (3M)
+MO   : 1000 @ $ 47.1208 (Altria Group)
+T    :  200 @ $ 29.4608 (AT&T)

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 #include "StockList.h"
 
 using namespace std;
@@ -32,14 +33,17 @@ void StockList::insert(Stock *a) {
         }
 
         if (s->getTicker() > a->getTicker()) {
-            new_node->setNext(curr->getNext());
+            StockNode *temp = curr->getNext();
+            new_node->setNext(temp);
             curr->setNext(new_node);
+            return;
         }
         curr = curr->getNext();
     }
 
     // logic for last node to check and add if new node could be last one
     if (curr->getNext() == nullptr) {
+        cout<<"5"<<endl;
         curr->setNext(new_node);
     }
 }
@@ -56,6 +60,59 @@ void StockList::display() {
         cout << left << setw(5) << cs->getTicker() << ": "  << right << setw(5) << (int) cs->getPrice() << " @ $ " << fixed << showpoint << setprecision(2) << right << setw(7) << (float) cs->getQuantity() << " (" << cs->getName() << ")" << endl;
         curr= curr->getNext();
     }
+}
+
+void StockList::display2() {
+    if (this->head==nullptr) {
+        cout << "List Empty!" << endl;
+    }
+
+    StockNode *curr = this->head;
+
+    while (curr != nullptr) {
+        Stock *cs = curr->getStockPtr();
+        cout << *cs << endl;
+        curr= curr->getNext();
+    }
+}
+
+StockNode* StockList::step_helper() {
+    if (this->head==nullptr) {
+        cout << "List Empty!" << endl;
+    }
+
+    StockNode *curr = this->head;
+
+    while (curr != nullptr) {
+        Stock *cs = curr->getStockPtr();
+        int r = rand() % 10 + 1;
+        r = r - 5;
+        float s = (float) r/100;
+        s = 1 + s;
+        cs->setPrice(cs->getPrice() * s);
+        curr= curr->getNext();
+    }
+    
+    return this->head;
+}
+
+void StockList::writeStockFile_helper(string file_name) {
+    ofstream outfile;
+    outfile.open(file_name);
+
+    if (this->head==nullptr) {
+        cout << "List Empty!" << endl;
+    }
+
+    StockNode *curr = this->head;
+
+    while (curr != nullptr) {
+        Stock *cs = curr->getStockPtr();
+        outfile << *cs << endl;
+        curr= curr->getNext();
+    }
+
+    outfile.close();
 }
 
 bool StockList::contains(string ticker) {

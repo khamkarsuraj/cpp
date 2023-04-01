@@ -10,6 +10,7 @@ class StockNode {
 	StockNode * getNext() const{ return next; };
 	Stock* getStockPtr() { return stkPtr; };
 	Stock getStock() { return *stkPtr; };
+	void setPrice(double some) { this->getStockPtr()->setPrice(some); };
 
 	private:
 		Stock	* stkPtr;

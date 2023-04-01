@@ -1,5 +1,7 @@
 #include <iostream>
 #include "Market.h"
+#include "Stock.h"
+
 using namespace std;
 
 int main(){
@@ -24,7 +26,7 @@ int main(){
 	m2.showStocks();
 	cout << "----------------------" << endl;
 
-	/*
+
 	//take a step of the market
 	//update the day
 	//write to a file using current day number for the market
@@ -40,7 +42,7 @@ int main(){
 	//write a new stock file using a specified day number
 	cout << "m2 updates 10 steps and a day passes " << endl;
 	cout << "m2 written to new day numbered file (EKSE.1.txt)" << endl << endl;
-	for (unsigned int i{0}; i < 10; i++){
+	for (unsigned int i = 0; i < 10; i++){
 		m2.step();
 	}
 	m2.nextDay();
@@ -72,6 +74,5 @@ int main(){
 	cout << "----------------------" << endl;
 
 	cout << "That's all, folks!" << endl;
-	*/
 	return 0;
 }
