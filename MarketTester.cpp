@@ -22,7 +22,7 @@ int main(){
 	//read in and display a stockfile
 	//using a specified day number
 	cout << "reading in EKSE.0.txt & displaying m2: " << endl << endl;
-	m2.readStockFile();
+	m2.readStockFile(0);
 	m2.showStocks();
 	cout << "----------------------" << endl;
 
